@@ -1,0 +1,26 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.aeslms.clashofequations'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.aeslms.clashofequations'
+        minSdk 23
+        targetSdk 34
+        versionCode 1
+        versionName '1.0'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            shrinkResources false
+        }
+        debug {
+            minifyEnabled false
+        }
+    }
+}
